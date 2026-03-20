@@ -1,0 +1,15 @@
+{
+  "name": "agento-mpp-server",
+  "version": "1.0.0",
+  "description": "Agento - AI Agent MPP Service Provider",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mppx": "^0.2.0",
+    "viem": "^2.47.5"
+  }
+}
